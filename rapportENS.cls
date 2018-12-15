@@ -14,11 +14,12 @@
 \RequirePackage{nomencl}
 \RequirePackage{fancyhdr}
 \RequirePackage{url}
-\RequirePackage{lastPage}
+\RequirePackage{lastpage}
 \RequirePackage[hidelinks]{hyperref}%Paquet pour insérer légendes dans des sous-figures comme Figure 1a, 1b
 \RequirePackage{fancyhdr}
+\csname @addtoreset\endcsname{section}{part}
 
-\RequirePackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry} %Configuration de la page
+\RequirePackage[left=2cm,right=2cm,top=2cm,bottom=2.5cm]{geometry} %Configuration de la page
 
 %-------------------- Informations sur le rapport ----------------------
 
@@ -37,16 +38,13 @@
 \setlength{\unitlength}{1mm}
 \addtolength{\headheight}{1.5\baselineskip}
 \renewcommand{\headrulewidth}{0.6pt}
-\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.5pt}
 \fancyfoot{}
-\lhead{\includegraphics[width=1cm]{ENS.png}}
-\chead{\today}
-\rfoot{\thepage\  / \pageref{LastPage}}
+\lhead{\includegraphics[width=0.7cm]{ENS.png} \hspace{1cm} \today}
+\chead{\today }
+\rfoot{\thepage  / \pageref{lastPage}}
 \lfoot{#1}
 \cfoot{\titre}
-
-\csname @addtoreset\endcsname{section}{part}
-
 }
 
 \newcommand{\fairepagedegarde}{
