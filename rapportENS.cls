@@ -41,7 +41,7 @@
 \renewcommand{\footrulewidth}{0.5pt}
 \fancyfoot{}
 \lhead{\includegraphics[width=0.7cm]{ENS.png} \hspace{1cm} \today}
-\chead{\today }
+%\chead{\today }
 \rfoot{\thepage  / \pageref{lastPage}}
 \lfoot{#1}
 \cfoot{\titre}
@@ -53,7 +53,7 @@
 \ThisLRCornerWallPaper{0.6}{SteinECL.jpg}
 	\centering %Centraliser le contenu
 	\includegraphics[width=1\textwidth]{ENSnom.png}\par\vspace{1cm} %Insertion du logo
-	{\scshape\LARGE École Normale Supérieure de Rennes \par}
+	%{\scshape\LARGE École Normale Supérieure de Rennes \par}
 	\vspace{0.5cm} 
 	{\scshape \Large \Departement \hspace{1cm} \annee \par} %Nom de l'université
 	\vspace{1cm}%Espace de 1cm
@@ -76,7 +76,7 @@
 		\emph{\textbf{Enseignant encadrant :}} \\
 		 \enseignant\\
 		\end{flushright}
-	\end{minipage}\\[4cm]
+	\end{minipage}\\[2cm]
     
 	\vfill
 	{\large \today\par} %Affichage de la date
