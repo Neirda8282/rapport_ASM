@@ -40,9 +40,9 @@
 \renewcommand{\headrulewidth}{0.6pt}
 \renewcommand{\footrulewidth}{0.5pt}
 \fancyfoot{}
-\lhead{\includegraphics[width=0.7cm]{ENS.png} \hspace{1cm} \today}
+\lhead{\includegraphics[width=0.8cm]{ENS.png} \hspace{1cm} \today}
 %\chead{\today }
-\rfoot{\thepage  / \pageref{lastPage}}
+\rfoot{\thepage  / \pageref{LastPage}}
 \lfoot{#1}
 \cfoot{\titre}
 }
@@ -60,7 +60,7 @@
 	{\scshape\Large \sujet \par} %sous-titre
 	\vspace{1cm}%Espace de 1cm
     \rule{\linewidth}{0.2 mm} \\[0.4 cm]
-	{\huge\bfseries \titre \par} \
+	{\huge\bfseries \titre \par}
     \rule{\linewidth}{0.2 mm} \\[1 cm]
 	\vspace{0.5cm}%Espace de 0.5cm
     
@@ -73,7 +73,7 @@
 	~
 	\begin{minipage}{0.4\textwidth}
 		\begin{flushright} \large
-		\emph{\textbf{Enseignant encadrant :}} \\
+		\emph{\textbf{Enseignants encadrants :}} \\
 		 \enseignant\\
 		\end{flushright}
 	\end{minipage}\\[2cm]
